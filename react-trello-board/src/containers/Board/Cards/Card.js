@@ -5,8 +5,8 @@ const propTypes = {
   style: PropTypes.object
 };
 
-const galPng = require('../../../assets/images/gal.png');
-const delPng = require('../../../assets/images/del.png');
+const undoPng = require('../../../assets/images/undo-18.png');
+const redoPng = require('../../../assets/images/redo-18.png');
 
 
 const Card = (props) => {
@@ -28,10 +28,10 @@ const Card = (props) => {
       </div>
       <div className="item-perfomers">
         <div className="add-perfomers">
-          <a href="#"><img src={galPng} alt="Add perfomers" /></a>
+          <a href="#"><img src={undoPng} alt="Undo" /></a>
         </div>
         <div className="delete-perfomers">
-          <a href="#"><img src={delPng} alt="Delete perfomers" /></a>
+          <a href="#"><img src={redoPng} alt="Redo" /></a>
         </div>
       </div>
     </div>
