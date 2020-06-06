@@ -9,9 +9,10 @@
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.babel.js --progress --profile --colors"
   },
   "dependencies": {
+    "braces": "3.0.2",
     "faker": "3.1.0",
     "immutable": "3.8.1",
-    "lodash": "4.14.0",
+    "lodash": "4.17.15",
     "react": "15.2.1",
     "react-dnd": "2.1.4",
     "react-dnd-html5-backend": "2.1.2",
@@ -34,8 +35,9 @@
     "babel-preset-react-hmre": "1.1.1",
     "babel-preset-stage-0": "6.5.0",
     "classnames": "2.2.5",
+    "clean-css": "4.1.11",
     "cross-env": "1.0.8",
-    "css-loader": "0.23.1",
+    "css-loader": "3.5.3",
     "eslint": "3.0.1",
     "eslint-config-airbnb": "9.0.1",
     "eslint-plugin-import": "1.10.2",
@@ -46,14 +48,14 @@
     "html-webpack-plugin": "2.22.0",
     "less": "2.7.1",
     "less-loader": "2.2.3",
-    "nib": "1.1.0",
+    "nib": "1.1.2",
     "react-hot-loader": "3.0.0-beta.2",
     "redux-thunk": "2.1.0",
     "style-loader": "0.13.1",
     "stylus": "0.54.5",
     "stylus-loader": "2.1.1",
-    "url-loader": "0.5.7",
-    "webpack": "1.13.1",
-    "webpack-dev-server": "1.14.1"
+    "url-loader": "4.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
