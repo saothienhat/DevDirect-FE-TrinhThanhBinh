@@ -61,12 +61,6 @@ const specs = {
       }
     }
 
-    // IMPORTANT!
-    // HACK! Since there is an open bug in react-dnd, making it impossible
-    // to get the current client offset through the collect function as the
-    // user moves the mouse, we do this awful hack and set the state (!!)
-    // on the component from here outside the component.
-    // https://github.com/gaearon/react-dnd/issues/179
     component.setState({ placeholderIndex });
 
     // when drag begins, we hide the card and only display cardDragPreview
